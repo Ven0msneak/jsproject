@@ -1,0 +1,52 @@
+body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #333333;
+	height: 100%;
+}
+
+#section
+{
+	background-color: #fefefe;
+	padding: 30px;
+	width: 60%;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#quoteDisplay
+{
+	font-size: 20px;
+	line-height: 120%;
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btn
+{
+
+    background-color: #333333;
+    padding: 12px 20px;
+    color: white;
+    border: 0;
+    font-family: 'Cinzel';
+    font-size: 18px;
+    text-align: center;
+    max-width: 150px;
+    margin: auto;
+}
+
+h1
+{
+	color: #fefefe;
+	font-family: "Cinzel", serif;
+	font-weight: normal;
+}
